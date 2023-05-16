@@ -1,7 +1,7 @@
-data_path=../phantom_organs
-act_file=$1
-atn_file=mu208
-path=sim_files/$act_file
+data_path=../phantom_organs # where to get XCAT data from
+act_file=$1 #name of activity file minus "_act_av.bin" (in the data_path directory)
+atn_file=mu208 #name of attenuation file (in the data_path directory)
+path=sim_files/$act_file #name of directory where to save the files
 n_jobs=90 #change if you have less CPU cores
 
 # Copy XCAT binary files to current directory
